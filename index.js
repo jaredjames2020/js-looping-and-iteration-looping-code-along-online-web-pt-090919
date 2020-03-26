@@ -8,5 +8,5 @@ function writeCards(name, event) {
   return writeCards;
 }
 
-writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise' )
+writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise' );
 
