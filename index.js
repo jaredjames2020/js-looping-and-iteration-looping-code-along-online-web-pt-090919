@@ -5,7 +5,7 @@ function writeCards(name, event) {
   {
     console.log(`Thank you, ${name[counter]}, for the wonderful ${event} gift!`);
   }
-  return writeCards;
+  return writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise' );
 }
 
 writeCards( [ 'Lisa', 'Kaitlin', 'Jan' ], 'surprise' );
