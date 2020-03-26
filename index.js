@@ -7,3 +7,12 @@ function writeCards(name, event) {
     }
   return giftCards;
 }
+
+function countDown (integer) {
+    let i = integer;
+    while (integer > 0) {
+        console.log( integer )
+        integer = integer - 1
+    }
+    console.log( integer );
+}
