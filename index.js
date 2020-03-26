@@ -5,7 +5,7 @@ function writeCards(name, event) {
   
   for (let counter = 0; counter < name.length; counter++)
     {
-      console.log(`Thank you, ${name[counter]}, for the wonderful ${event} gift!`);
+      giftCards.push(`Thank you, ${name[counter]}, for the wonderful ${event} gift!`);
     }
   return giftCards();
 }
