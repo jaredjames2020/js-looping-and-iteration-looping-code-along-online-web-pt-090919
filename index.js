@@ -9,4 +9,5 @@ function writeCards(name, event) {
     }
     
   return giftCards;
+  
 }
